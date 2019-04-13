@@ -27,13 +27,16 @@ class ExcelUtil():
             return r
 if __name__ == "__main__":
     import os
+    # 获取当前文件路径 PO模式下
     propath = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     print(propath)
+    # 获取data_excel.xlsx文件路径
     filepath = os.path.join(propath,"common","data_excel.xlsx")
     print(filepath)
     # filepath = "C:\web_etest\YYB\common\data_excel.xlsx"
     sheetName = "Sheet1"
     data = ExcelUtil(filepath, sheetName)
-    print (data.dict_data())
+    datalist = data.dict_data()
+    print (datalist)
     # for i in data.dict_data():
     #     print (i)
