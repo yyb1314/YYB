@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common.basepage import Base
+from common.base_package import Base
 import time
 
 loc1 = ("xpath","//*[@id='block7']/div[2]/table/tbody/tr[1]/td[3]")

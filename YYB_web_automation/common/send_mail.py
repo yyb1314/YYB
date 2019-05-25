@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.header import Header
-
-def send_mail(report_name,receiver = "**********@qq.com"):
+import smtplib
+def send_mail(report_name,receiver = "2393392330@qq.com"):
     """
-    发送测试报告到邮箱 以下已QQ邮箱为例
+    发送测试报告到邮箱 以下已qq邮箱为例
     :param report_name: 需要发送的测试报告
     :param receiver: 邮件接收人
     :return:
@@ -19,8 +18,8 @@ def send_mail(report_name,receiver = "**********@qq.com"):
     # 邮件服务器
     smtpserver = "smtp.qq.com"
     # 发件人和密码
-    sender = '**********@qq.com'
-    password = '**************'
+    sender = '2393392330@qq.com'
+    password = 'yiujprhtqfmjecai' # 此处填写SMTP授权登录码
     # 接收人
     # receiver = "**********@qq.com"  # 单人接收
     # receiver = ["*********@qq.com","**********@qq.com"] # 多人接收

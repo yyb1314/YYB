@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-from common.basepage import Base
+from common.base_package import Base
 import unittest
+login_url = "http://localhost/zentao/user-login.html"
 class Login(Base):
     loc1 = ("id","account")
     loc2 = ("name","password")
@@ -9,6 +10,7 @@ class Login(Base):
     text = "admin"
     def loginpage(self,user = "admin",pswd = "123456"):
         """登录"""
+        self.driver.get(login_url)
         self.sendkeys(self.loc1,user)
         self.sendkeys(self.loc2,pswd)
         self.click(self.loc3)

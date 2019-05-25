@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Interface Automation/.idea/Interface Automation.iml" filepath="$PROJECT_DIR$/../Interface Automation/.idea/Interface Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../YOYO/.idea/YOYO.iml" filepath="$PROJECT_DIR$/../YOYO/.idea/YOYO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/YYB.iml" filepath="$PROJECT_DIR$/.idea/YYB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appium_kaoyan/.idea/appium_kaoyan.iml" filepath="$PROJECT_DIR$/../appium_kaoyan/.idea/appium_kaoyan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_3_jc/.idea/python_3_jc.iml" filepath="$PROJECT_DIR$/../python_3_jc/.idea/python_3_jc.iml" />
     </modules>
   </component>
 </project>

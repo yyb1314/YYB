@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common.basepage import Base
+from common.base_package import Base
 import time
 import unittest
 

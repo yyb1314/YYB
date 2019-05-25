@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common.basepage import Base
+from common.base_package import Base
 # 关闭一条bug
 loc1 = ("link text","测试")
 loc2 = ("link text","Bug")

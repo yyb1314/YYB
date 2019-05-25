@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-from common.basepage import Base
-
+from common.base_package import Base
 loc1 = ("link text","测试")
 loc2 = ("link text","用例")
 loc3 = ("xpath","//*[@id='caseList']/tbody/tr[1]/td[13]/a[5]/i")

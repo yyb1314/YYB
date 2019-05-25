@@ -7,7 +7,6 @@ The simplest way to use this is to invoke its main method. E.g.
 
     import unittest
     import HTMLTestRunner
-
     ... define your tests ...
 
     if __name__ == '__main__':
